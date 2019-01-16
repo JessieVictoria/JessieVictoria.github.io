@@ -65,6 +65,16 @@
 }
 */
 
+.pogoPass {
+	border-style: solid;
+	border-color: #17a2b8;
+	border-radius: 5px;
+	height: 250px;
+	width: 85%;
+	padding: 20px;
+	padding-top:30px;
+}
+
 .darkLink a {
 	color: #17a2b8;
 }
