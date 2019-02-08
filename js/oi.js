@@ -4,7 +4,7 @@ var pass1 = prompt('Please Enter Your Password (you will be taken to another pag
 while (testV < 3) {
 if (!pass1) 
 history.go(-1);
-if (pass1.toLowerCase() == "testingpassword") {
+if (pass1.toLowerCase() == "seesomegames") {
 alert('That was it!');
 window.open('aA1Bsd4EQ77gh.html');
 break;
