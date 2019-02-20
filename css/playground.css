@@ -1,0 +1,144 @@
+    #rectangle {
+      width: 300px;
+      height: 50px;
+      background: red;
+    }
+
+    #rectangle:hover {
+    	animation-duration: 3s;
+    	animation-name:getrect;
+    }
+
+    @keyframes getrect {
+    	50% {
+    		width: 75%;
+    		background: #FC0FC0;
+    	}
+
+    	100% {
+    		width:100%;
+    		background: blue;
+    	}
+    }
+  
+    .rectText{
+    	color: white;
+    	text-shadow: 1px 1px black;
+    }
+ 
+ 	.backgroundThing {
+ 		width: 100%;
+ 		height: 500px;
+ 		background-image: linear-gradient(#003366, #a9a9a9);
+ 	}
+
+
+
+    #star1 {
+      width: 10px;
+      height: 10px;
+      background: #fffef4;
+      border-radius: 50%;
+      position: relative;
+      top: 200px;
+      left: 80px;
+      animation-name: starOne;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+    }
+
+          #star2 {
+      width: 10px;
+      height: 10px;
+      background: #fdfadb;
+      border-radius: 50%;
+      position: relative;
+      top: 40px;
+      left: 180px;
+      animation-name: starOne;
+      animation-duration: 1.5s;
+      animation-iteration-count: infinite;
+    }
+
+      #star3 {
+      width: 10px;
+      height: 10px;
+      background: #fffef4;
+      border-radius: 50%;
+      position: relative;
+      top: 300px;
+      left: 400px;
+      animation-name: starOne;
+      animation-duration: 1s;
+      animation-iteration-count: infinite;
+    }
+
+
+    @keyframes starOne {
+    	0% {
+    		opacity: 0.6;
+    		transform: scale(0.6);
+    	}
+    	50% {
+    		opacity: 1;
+    		transform: scale(1);
+    	}
+    	100% {
+    		opacity: 0.6;
+    		transform: scale(0.6);
+    	}
+    }
+
+
+      #planet {
+      width: 100px;
+      height: 100px;
+      background-image: linear-gradient(#a9a9a9, #6684a3);
+      border-radius: 50%;
+      position: relative;
+      top: 15%;
+      left: 60%;
+      transition: transform 2s;
+     }
+
+    #planet:hover {
+    	/*transition: 2s; */
+    	transition-timing-function: ease-in-out;
+    	transform:scale(3);
+    }
+
+    #building1 {
+    	position: relative;
+    	width: 4%;
+    	height: 50%;
+    	top: 24%;
+    	left: 40%;
+    	background: #101010;
+    	border-radius: 5px;
+    	transition:transform 2s;
+    	transform-origin: bottom;
+    }
+
+    #building1:hover {
+    	transition-timing-function: ease-in-out;
+    	transform: scaleY(1.5);
+ 		transform-origin: bottom;
+    }
+
+    #building2 {
+    	position: relative;
+    	width: 8%;
+    	height: 20%;
+    	bottom: 0%;
+    	left: 65%;
+    	background: #101010;
+    	border-radius: 5px;
+    	transition:transform 2s;
+    	transform-origin: bottom;
+    }
+
+    #building2:hover {
+    	transition-timing-function: ease-in-out;
+    	transform: scaleY(1.5);
+ 		transform-origin: bottom;
+    }  
