@@ -185,13 +185,17 @@ body{background-color:#2F4F4F}
 /* ~**~**~**~*~~*~*~*~ PAGE CONTENT BEGINS *~*~*~**~*~*~~**~*~ */
 
 .projectPageTop {
-	padding: 50px 0px 50px 0px;
+	padding: 100px 0px 100px 0px;
 }
 
 .projectLogo {
 	width: 300px;
 	margin-top: auto;
 	margin-bottom: auto;
+}
+
+.projectIntro {
+	padding-top:10%;
 }
 
 .problemStatement {
@@ -291,9 +295,85 @@ body{background-color:#2F4F4F}
   background-size: cover;
 }
 
+
+/* *~*~**~*~*~~**~~ RISE WORK ~*~*~*~*~*~*~*~*~~ */
+
+
+#riseUserResearchParallax { 
+  /* The image used */
+  background-image: url("../img/rise/rise-to-power-logo-tall.jpg");
+
+  /* Set a specific height */
+  height: 250px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#whatIDidRise {
+	background-color: white;
+	padding: 200px 0px 200px 0px;
+}
+
+#riseMappingParallax { 
+  /* The image used */
+  background-image: url("../img/rise/murderBoard.jpg");
+
+  /* Set a specific height */
+  height: 250px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#mappingRise {
+	background-color: white;
+	padding: 200px 0px 200px 0px;
+}
+
+#ndaAlert {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/* *~*~**~*~*~~**~~ INSTARYDE WORK ~*~*~*~*~*~*~*~*~~ */
+#instaRydeMapParallax { 
+  /* The image used */
+  background-image: url("../img/instaryde/map2.png");
+
+  /* Set a specific height */
+  height: 250px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#instarydeFeatures {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.verticalAlign {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+
 #nextPlease {
 	position: relative;
 	z-index: 1;
+	padding-bottom: 150px;
 }
 
 .next {
@@ -369,6 +449,7 @@ body{background-color:#2F4F4F}
 
 .workingWithMeSub {
 	width: 45%;
+	font-size: 1.3em;
 	margin-right: auto;
 	margin-left: auto;
 }
