@@ -5,7 +5,7 @@ while (testV < 3) {
 if (!pass1) 
 history.go(-1);
 if (pass1.toLowerCase() == "seesomegames") {
-alert('That was it!');
+alert('You got it!');
 window.open('aA1Bsd4EQ77gh.html');
 break;
 } 
