@@ -246,6 +246,10 @@ body{background-color:#2F4F4F}
 	padding: 100px 0px 100px 0px;
 }
 
+.problemRoleSubHead {
+	opacity: 0.8;
+}
+
 .myRole {
 	padding: 100px 0px 100px 0px;
 	position: relative;
