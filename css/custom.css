@@ -7,7 +7,9 @@
 	opacity: 0.9;
 }
 
-
+.dropdown-menu {
+	z-index: 9;
+}
 
 #selectedProject {
 	position: relative;
@@ -31,7 +33,7 @@
 .topSubhead {
 	opacity: 0.8;
 	width: 70%;
-	z-index: 0;
+
 	line-height: 150%;
 	font-size: 1.1em;
 }
@@ -43,7 +45,8 @@
 	margin-bottom: auto;
 	color: white;
 	position: relative;
-	z-index: 1;
+	z-index: -5;
+
 
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#662d91+0,872793+100 */
 background: rgb(102,45,145); /* Old browsers */
@@ -67,6 +70,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#662d91', end
   transform-origin: 0%;
   z-index: -1;
 }*/
+
+
 
 .frontRow { 
 	position: relative;
