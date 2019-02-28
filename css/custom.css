@@ -3,7 +3,8 @@
 }
 
 .bg-purp {
-	background-color: #512DA8;
+	background-color: #662D91;
+	opacity: 0.9;
 }
 
 
@@ -23,7 +24,7 @@
 }
 
 .workSubhead {
-	opacity: 0.8;
+	opacity: 0.7;
 }
 
 
@@ -40,10 +41,16 @@
 	padding-bottom: 125px;
 	margin-top: auto;
 	margin-bottom: auto;
-	background-color: #673AB7;
 	color: white;
 	position: relative;
 	z-index: 1;
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#662d91+0,872793+100 */
+background: rgb(102,45,145); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(102,45,145,1) 0%, rgba(135,39,147,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(102,45,145,1) 0%,rgba(135,39,147,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(102,45,145,1) 0%,rgba(135,39,147,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#662d91', endColorstr='#872793',GradientType=0 ); /* IE6-9 */
 }
 
 /* THIS IS THE DIVIDER FOR THE HOMEPAGE TOP */
@@ -194,6 +201,12 @@ body{background-color:#2F4F4F}
   transform-origin: 0%;
   z-index: -1;
 }*/
+
+.footerHR {
+	width: 50%; 
+	background-color: white; 
+	opacity: 0.3;
+}
 
 .socialLinks {
 	opacity: 0.8;
@@ -521,6 +534,11 @@ a.nextLinks:hover {
 	padding-bottom: 50px;
 }
 
+.iconsAbout {
+	padding-bottom: 20px;
+	max-width: 120px;
+}
+
 #workingWithMe {
 	height: auto;
 	padding-top: 50px;
@@ -706,7 +724,7 @@ a.nextLinks:hover {
 
 #services {
 	padding: 100px 0px 100px 0px;
-	height: 600px;
+	height: auto;
 }
 
 .backToTop  {
@@ -725,3 +743,4 @@ a.backToTop:hover {
 	opacity: 0.2;
 	text-decoration: none;
 }
+
