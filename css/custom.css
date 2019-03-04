@@ -414,7 +414,7 @@ body{background-color:#2F4F4F}
 
 .instaRydeMapParallax { 
   /* The image used */
-  background-image: url("../img/instaryde/map2.png");
+  background-image: url("../img/map2.png");
 
   /* Set a specific height */
   height: 250px; 
