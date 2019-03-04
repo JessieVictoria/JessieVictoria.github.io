@@ -412,7 +412,7 @@ body{background-color:#2F4F4F}
 	padding-bottom: 150px;
 }
 
-#instaRydeMapParallax { 
+.instaRydeMapParallax { 
   /* The image used */
   background-image: url("../img/instaryde/map2.png");
 
