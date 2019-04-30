@@ -33,7 +33,7 @@
 .topSubhead {
 	opacity: 0.8;
 	width: 70%;
-
+	z-index: 6;
 	line-height: 150%;
 	font-size: 1.1em;
 }
